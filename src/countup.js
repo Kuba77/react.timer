@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { PropTypes, Component } from 'react'
 import convertTime from './convert-time'
 
 class CountUp extends Component {
