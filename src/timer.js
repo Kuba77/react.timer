@@ -4,7 +4,7 @@ import CountUp from './countup'
 
 function Timer ({ countDown, startTime }) {
   if (countDown && startTime > 0) return <CountDown startTime={startTime} />
-  if (!countDown) return <CountUp />
+  if (!countDown) return <CountUp startTime={startTime} />
   return <span/>
 }
 Timer.propTypes = {
